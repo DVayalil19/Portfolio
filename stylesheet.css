@@ -4,14 +4,14 @@ h1 {
 	color: #D4AF37;
 }
 
-div.stuffmenu {
+div.scrollmenu {
 	background-color: #6A7E25;
 	overflow: auto;
 	white-space: nowrap;
 	
 }
 
-div.stuffmenu a {
+div.scrollmenu a {
 	display: inline-block;
 	color: white;
 	text-align: center;
@@ -19,6 +19,6 @@ div.stuffmenu a {
 	text-decoration: none;
 }
 
-div.stuffmenu a:hover {
+div.scrollmenu a:hover {
 	background-color: #FF00EF;
 }
