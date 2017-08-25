@@ -16,7 +16,22 @@
 		<a href="test.html">Testing</a>
 
 </div>
-	<h1>Yo Dawg, Welcome to my crib</h1>
-    <img src="images/giphy.gif" height="250">
-  </body>
+<div id="main">
+  <h2> Home </h2>
+  <p> Hey, welcome to my home screen. Feel free to look through my website to learn more about me.</p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
 </html>
