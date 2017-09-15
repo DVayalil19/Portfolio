@@ -1,6 +1,6 @@
 <!doctype html>
-	<html lang="en">
-	  <head>
+<html lang="en">
+  <head>
 <meta charset="utf-8">
 	    <title>Test</title>
 			<link href="stylesheet1.css" rel="stylesheet" type="text/css">
@@ -16,11 +16,48 @@
 		<a href="test.html">Testing</a>
 
 </div>
-    <h1>This is my Portfolio Page!</h1>
-    <img src="images/portfolio.jpg" height="250">
-    <br>
-    <a target="_blank" href="https://scratch.mit.edu">
-      <img src="images/scratchlogo.png" height="100">
-    </a>
-	  </body>
-	</html>
+
+<div id="main">
+  <h2> Portfolio </h2>
+  <p> Hey, Here are some of my projects.</p>
+	<br>
+       
+       <br>
+       <br>
+       <table align="left" border="2px">
+           <col width="230">
+           <col width="430">
+           <col width="330">
+           <tr>
+               <th><b>Project Name</b></th><th><b>Project Description</b></th><th><b>Project Link</b></th>
+           </tr>
+           <tr>
+               <td height="100">Website Project</td>
+            <td>This Website you are on is my first project! This is where you can know more about me and see projects I have worked on. So instead of providing a link to a website you are already on, the link to this project will include some of the code that went into this website.
+             </td>
+               <td><a href="https://docs.google.com/document/d/1qn2Uzazy_HGI2SpK2gDwmV0_r2gi6WD6cRmJ98ftTVs/edit" target="_blank"> Website Code Link</a></td>
+           </tr>
+           
+            <tr>
+               <td height="100">Scratch Game Project</td>
+            <td>This Website you are on is my first project! This is where you can know more about me and see projects I have worked on. So instead of providing a link to a website you are already on, the link to this project will include some of the code that went into this website.
+             </td>
+               <td><a href="https://docs.google.com/document/d/1qn2Uzazy_HGI2SpK2gDwmV0_r2gi6WD6cRmJ98ftTVs/edit" target="_blank"> Website Code Link</a></td>
+           </tr>
+       </table>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+</html>
